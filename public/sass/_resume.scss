@@ -1,0 +1,27 @@
+.container-fluid{
+	.top{
+		background-color: #BDCDD0;
+	}
+	.outside-raidus{
+		border-radius: 50%;
+		border: 1px solid black;
+		display: inline-block;
+		vertical-align: middle;
+		overflow: hidden;
+		margin-top: 100px;
+	}
+	.header-image{
+		margin-top: -140px;
+		.profile-image{
+			width:120%;
+			margin-left: -20px;
+			// overflow: hidden;
+
+		}
+	}
+	.row{
+		h1{
+			color: white;
+		}
+	}
+}

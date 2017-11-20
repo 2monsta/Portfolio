@@ -1,0 +1,47 @@
+.navbar-default {
+  padding-top: 30px;
+  background-color: white; }
+  .navbar-default .navbar-brand {
+    font-weight: bold; }
+  .navbar-default #name {
+    color: black; }
+  .navbar-default ul li:hover::before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1); }
+  .navbar-default ul li:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s; }
+
+.container-fluid .top {
+  background-color: #BDCDD0; }
+.container-fluid .outside-raidus {
+  border-radius: 50%;
+  border: 1px solid black;
+  display: inline-block;
+  vertical-align: middle;
+  overflow: hidden;
+  margin-top: 100px; }
+.container-fluid .header-image {
+  margin-top: -140px; }
+  .container-fluid .header-image .profile-image {
+    width: 120%;
+    margin-left: -20px; }
+.container-fluid .row h1 {
+  color: white; }
+
+.page-footer {
+  background-color: grey;
+  padding: 0; }
+
+/*# sourceMappingURL=style.css.map */
