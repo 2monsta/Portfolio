@@ -1,5 +1,5 @@
 .navbar-default {
-  padding-top: 30px;
+  padding-top: 10px;
   background-color: white; }
   .navbar-default .navbar-brand {
     font-weight: bold; }
@@ -40,8 +40,11 @@
 .container-fluid .row h1 {
   color: white; }
 
-.page-footer {
-  background-color: grey;
-  padding: 0; }
+footer .footer-copyright .container {
+  position: absolute;
+  bottom: 0px;
+  height: 400px;
+  background-color: #26a69a;
+  width: 100%; }
 
 /*# sourceMappingURL=style.css.map */
