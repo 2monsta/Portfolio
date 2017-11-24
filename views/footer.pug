@@ -7,17 +7,28 @@ footer
                         h3 Find Me Here!
                         h2
                             a(href="https://github.com/2monsta")
-                                i.fa.fa-github.fa-1x(aria-hidden='true' data-toggle="tooltip" title="Github!")
+                                i.fa.fa-github.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="Github!")
                         h2
                             a(href="https://www.linkedin.com/in/jason-li-b2a96785/")
-                                i.fa.fa-linkedin-square.fa-1x(aria-hidden='true' data-toggle="tooltip" title="LinkedIn!")
+                                i.fa.fa-linkedin-square.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="LinkedIn!")
                         h2
                             a(href="/resume")
-                                i.fa.fa-file-text.fa-1x(aria-hidden='true' data-toggle="tooltip" title="Resume!")
+                                i.fa.fa-file-text.fa-1x(aria-hidden='true' class="tooltipped" data-position="Top" data-delay="50" data-tooltip="Resume!")
                 .col.s6
                     .center-align
                         h3 Contact Me!
-                        input(type="text" name="name" placeholder="Name" class="form-control")
+                        .input-field
+                            input#name(type="text" name="name" class="validate")
+                            label(for="name") Name
+                        .input-field
+                            input#email(type="email" name="name" class="validate")
+                            label(for="email") Your Email
+                        .input-field
+                            input#phone(type="text" name="name" class="validate")
+                            label(for="phone") Phone
+                        .input-field
+                            textarea#message(name="message" cols="30" rows="10" class="materialize-textarea")
+                            label(for="message") Message
             .row.center-align
                 | © 2017 Copyright
-                span.footer-logo PetBasket
+                span.footer-logo  Jason Li
