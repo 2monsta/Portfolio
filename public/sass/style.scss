@@ -4,7 +4,16 @@
 
 @import "footer";
 
-.parallax-container{
+.one{
+	height: 700px;
+	.parallax{
+		img{
+			width: 100%;
+		}
+	}
+}
+.two{
+	height: 550px;
 	.parallax{
 		img{
 			width: 100%;
