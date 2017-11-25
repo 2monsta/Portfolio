@@ -9,7 +9,7 @@ $(document).ready(()=>{
 		if ($(this).scrollTop() > 100) {
 			$('.navbar-fixed').fadeIn(500);
 		} else {
-			$('.navbar-fixed').slideUp(1500);
+			$('.navbar-fixed').fadeOut(500);
 		}
 	});
 
