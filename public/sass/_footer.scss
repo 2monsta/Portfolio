@@ -1,78 +1,62 @@
-footer{
-	.footer-copyright{
-		position: absolute;
-		bottom: 0;
-		height: 500px;
-		background-color: #26a69a;
-		width: 100%;
-		.container{
-			.row{
-				.col.s6{
-					.center-align{
-						h3{
-							font-family: 'Lobster', cursive;
+.page-footer{
+	background-color: #2FA599;
+	font-family: 'Lobster', cursive;
+	color: black;
+	.container{
+		.row{
+			.col.s6{
+				.center-align{
+					.input-field{
+						// NAME/PHONE
+						// input[type=text]:focus + label {
+						// 	color: #000;
+						// }
+						input[type=text] + label {
+							color: #000;
 						}
-						.fa-github{
-							color: black;
+						// input[type=text]:focus {
+						// 	border-bottom: 1px solid #000;
+						// 	box-shadow: 0 1px 0 0 #000;
+						// }
+						input[type=text] {
+							border-bottom: 1px solid #000;
+							box-shadow: 0 1px 0 0 #000;
 						}
-						.fa-linkedin-square{
-							color: #1694BC;
-						}
-						.fa-file-text{
-							color: #293E49
-						}
-						.input-field{
-							// NAME/PHONE
-							// input[type=text]:focus + label {
-							// 	color: #000;
-							// }
-							input[type=text] + label {
-								color: #000;
-							}
-							// input[type=text]:focus {
-							// 	border-bottom: 1px solid #000;
-							// 	box-shadow: 0 1px 0 0 #000;
-							// }
-							input[type=text] {
-								border-bottom: 1px solid #000;
-								box-shadow: 0 1px 0 0 #000;
-							}
 
-							// EMAIL
-							// input[type=text]:focus + label {
-							// 	color: #000;
-							// }
-							input[type=email] + label {
-								color: #000;
-							}
-							// input[type=text]:focus {
-							// 	border-bottom: 1px solid #000;
-							// 	box-shadow: 0 1px 0 0 #000;
-							// }
-							input[type=email] {
-								border-bottom: 1px solid #000;
-								box-shadow: 0 1px 0 0 #000;
-							}
+						// EMAIL
+						// input[type=text]:focus + label {
+						// 	color: #000;
+						// }
+						input[type=email] + label {
+							color: #000;
+						}
+						// input[type=text]:focus {
+						// 	border-bottom: 1px solid #000;
+						// 	box-shadow: 0 1px 0 0 #000;
+						// }
+						input[type=email] {
+							border-bottom: 1px solid #000;
+							box-shadow: 0 1px 0 0 #000;
+						}
 
-							// MESSAGE
-							// textarea + label {
-							// 	color: #000;
-							// }
-							textarea + label {
-								color: #000;
-							}
-							// textarea {
-							// 	border-bottom: 1px solid #000;
-							// 	box-shadow: 0 1px 0 0 #000;
-							// }
-							textarea{
-								border-bottom: 1px solid #000;
-								box-shadow: 0 1px 0 0 #000;
-							}
+						// MESSAGE
+						// textarea + label {
+						// 	color: #000;
+						// }
+						textarea + label {
+							color: #000;
+						}
+						// textarea {
+						// 	border-bottom: 1px solid #000;
+						// 	box-shadow: 0 1px 0 0 #000;
+						// }
+						textarea{
+							border-bottom: 1px solid #000;
+							box-shadow: 0 1px 0 0 #000;
+						}
 
 
-						}
-					}	
+					}
 				}
 			}
 		}

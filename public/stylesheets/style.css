@@ -22,34 +22,27 @@
 .container-fluid .row h1 {
   color: white; }
 
-footer .footer-copyright {
-  position: absolute;
-  bottom: 0;
-  height: 500px;
-  background-color: #26a69a;
+.page-footer {
+  background-color: #2FA599;
+  font-family: 'Lobster', cursive;
+  color: black; }
+  .page-footer .container .row .col.s6 .center-align .input-field input[type=text] + label {
+    color: #000; }
+  .page-footer .container .row .col.s6 .center-align .input-field input[type=text] {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+  .page-footer .container .row .col.s6 .center-align .input-field input[type=email] + label {
+    color: #000; }
+  .page-footer .container .row .col.s6 .center-align .input-field input[type=email] {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+  .page-footer .container .row .col.s6 .center-align .input-field textarea + label {
+    color: #000; }
+  .page-footer .container .row .col.s6 .center-align .input-field textarea {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 0 #000; }
+
+.parallax-container .parallax img {
   width: 100%; }
-  footer .footer-copyright .container .row .col.s6 .center-align h3 {
-    font-family: 'Lobster', cursive; }
-  footer .footer-copyright .container .row .col.s6 .center-align .fa-github {
-    color: black; }
-  footer .footer-copyright .container .row .col.s6 .center-align .fa-linkedin-square {
-    color: #1694BC; }
-  footer .footer-copyright .container .row .col.s6 .center-align .fa-file-text {
-    color: #293E49; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field input[type=text] + label {
-    color: #000; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field input[type=text] {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field input[type=email] + label {
-    color: #000; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field input[type=email] {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field textarea + label {
-    color: #000; }
-  footer .footer-copyright .container .row .col.s6 .center-align .input-field textarea {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
 
 /*# sourceMappingURL=style.css.map */

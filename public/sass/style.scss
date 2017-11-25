@@ -3,3 +3,11 @@
 @import "resume";
 
 @import "footer";
+
+.parallax-container{
+	.parallax{
+		img{
+			width: 100%;
+		}
+	}
+}

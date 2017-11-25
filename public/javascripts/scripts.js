@@ -1,4 +1,5 @@
 $(document).ready(()=>{
 	$('[data-toggle="tooltip"]').tooltip();
-    $(".button-collapse").sideNav();
+	$(".button-collapse").sideNav();
+	$('.parallax').parallax();
 })
