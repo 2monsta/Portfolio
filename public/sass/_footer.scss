@@ -2,8 +2,10 @@
 	background-color: #2FA599;
 	font-family: 'Lobster', cursive;
 	color: black;
+	margin-bottom: -20px !important;
 	.container{
 		.row{
+			margin-bottom: 0px;
 			.col.s6{
 				.center-align{
 					.input-field{
@@ -54,8 +56,6 @@
 							border-bottom: 1px solid #000;
 							box-shadow: 0 1px 0 0 #000;
 						}
-
-
 					}
 				}
 			}

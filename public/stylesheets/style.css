@@ -25,27 +25,36 @@
 .page-footer {
   background-color: #2FA599;
   font-family: 'Lobster', cursive;
-  color: black; }
-  .page-footer .container .row .col.s6 .center-align .input-field input[type=text] + label {
-    color: #000; }
-  .page-footer .container .row .col.s6 .center-align .input-field input[type=text] {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
-  .page-footer .container .row .col.s6 .center-align .input-field input[type=email] + label {
-    color: #000; }
-  .page-footer .container .row .col.s6 .center-align .input-field input[type=email] {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
-  .page-footer .container .row .col.s6 .center-align .input-field textarea + label {
-    color: #000; }
-  .page-footer .container .row .col.s6 .center-align .input-field textarea {
-    border-bottom: 1px solid #000;
-    box-shadow: 0 1px 0 0 #000; }
+  color: black;
+  margin-bottom: -20px !important; }
+  .page-footer .container .row {
+    margin-bottom: 0px; }
+    .page-footer .container .row .col.s6 .center-align .input-field input[type=text] + label {
+      color: #000; }
+    .page-footer .container .row .col.s6 .center-align .input-field input[type=text] {
+      border-bottom: 1px solid #000;
+      box-shadow: 0 1px 0 0 #000; }
+    .page-footer .container .row .col.s6 .center-align .input-field input[type=email] + label {
+      color: #000; }
+    .page-footer .container .row .col.s6 .center-align .input-field input[type=email] {
+      border-bottom: 1px solid #000;
+      box-shadow: 0 1px 0 0 #000; }
+    .page-footer .container .row .col.s6 .center-align .input-field textarea + label {
+      color: #000; }
+    .page-footer .container .row .col.s6 .center-align .input-field textarea {
+      border-bottom: 1px solid #000;
+      box-shadow: 0 1px 0 0 #000; }
 
 .one {
-  height: 700px; }
+  height: 730px; }
   .one .parallax img {
     width: 100%; }
+
+.section .row .col.s4 img {
+  width: 90%;
+  height: 250px;
+  border-radius: 50%;
+  margin-left: 100px; }
 
 .two {
   height: 550px; }

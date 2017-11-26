@@ -5,10 +5,22 @@
 @import "footer";
 
 .one{
-	height: 700px;
+	height: 730px;
 	.parallax{
 		img{
 			width: 100%;
+		}
+	}
+}
+.section{
+	.row{
+		.col.s4{
+			img{
+				width: 90%;
+				height: 250px;
+				border-radius: 50%;
+				margin-left: 100px;
+			}
 		}
 	}
 }
