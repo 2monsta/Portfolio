@@ -4,8 +4,12 @@
 
 @import "footer";
 
+h4, h1{
+	font-family: 'Lobster', cursive;
+}
+
 .one{
-	height: 730px;
+	height: 500px;
 	.parallax{
 		img{
 			width: 100%;
@@ -14,9 +18,17 @@
 }
 .section{
 	.row{
+		.col.s8{
+			h3{
+				font-family: 'Lobster', cursive;
+			}
+			p{
+				font-family: 'Merienda One', cursive;				
+			}
+		}
 		.col.s4{
 			img{
-				width: 90%;
+				width: 100%;
 				height: 250px;
 				border-radius: 50%;
 				margin-left: 100px;
@@ -25,7 +37,7 @@
 	}
 }
 .two{
-	height: 550px;
+	height: 500px;
 	.parallax{
 		img{
 			width: 100%;
