@@ -1,10 +1,13 @@
 .navbar-fixed{
   nav{
     background-color: #bdbdbd;;
-    overflow-x: hidden;
+	overflow-x: hidden;
     a{
 		color: black;
 		font-family: 'Lobster', cursive;
+		span{
+			margin-left: 20px;
+		}
     }
   }
 }

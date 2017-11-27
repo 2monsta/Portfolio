@@ -4,6 +4,8 @@
   .navbar-fixed nav a {
     color: black;
     font-family: 'Lobster', cursive; }
+    .navbar-fixed nav a span {
+      margin-left: 20px; }
 
 .container-fluid .top {
   background-color: #BDCDD0; }
