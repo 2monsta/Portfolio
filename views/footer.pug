@@ -1,33 +1,35 @@
 footer.page-footer
-    .container
-            .row
-                .col.s6
-                    .center-align
-                        h3 Find Me Here!
-                        h2
-                            a(href="https://github.com/2monsta")
-                                i.fa.fa-github.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="Github!" style="color:black;")
-                        h2
-                            a(href="https://www.linkedin.com/in/jason-li-b2a96785/")
-                                i.fa.fa-linkedin-square.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="LinkedIn!")
-                        h2
-                            a(href="/resume")
-                                i.fa.fa-file-text.fa-1x(aria-hidden='true' class="tooltipped" data-position="Top" data-delay="50" data-tooltip="Resume!")
-                .col.s6
-                    .center-align
-                        h3 Contact Me!
-                        .input-field
-                            input#name(type="text" name="name" class="validate")
-                            label(for="name") Name
-                        .input-field
-                            input#email(type="email" name="name" class="validate")
-                            label(for="email") Your Email
-                        .input-field
-                            input#phone(type="text" name="name" class="validate")
-                            label(for="phone") Phone
-                        .input-field
-                            textarea#message(name="message" cols="30" rows="10" class="materialize-textarea")
-                            label(for="message") Message
-            .row.center-align
-                | © 2017 Copyright
-                span.footer-logo  Jason Li
+		.container#contactMe
+						.row
+								.col.s6
+										.center-align
+												h3 Find Me Here!
+												h2
+														a(href="https://github.com/2monsta")
+																i.fa.fa-github.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="Github!" style="color:black;")
+												h2
+														a(href="https://www.linkedin.com/in/jason-li-b2a96785/")
+																i.fa.fa-linkedin-square.fa-1x(aria-hidden='true' class="tooltipped" data-position="top" data-delay="50" data-tooltip="LinkedIn!" style="color:black;")
+												h2
+														a(href="/resume")
+																i.fa.fa-file-text.fa-1x(aria-hidden='true' class="tooltipped" data-position="Top" data-delay="50" data-tooltip="Resume!" style="color:black;")
+								.col.s6
+										.center-align
+												h3 Contact Me!
+												form(action="/mail", method="post")
+													.input-field
+														input#name(type="text" name="name" class="validate" required)
+														label(for="name") Name
+													.input-field
+														input#email(type="email" name="email" class="validate" required)
+														label(for="email") Your Email
+													.input-field
+														input#phone(type="text" name="phone" class="validate" required)
+														label(for="phone") Phone
+													.input-field
+														textarea#message(name="message" cols="30" rows="10" class="materialize-textarea" required)
+														label(for="message") Message
+													button(style="background-color: grey;" class="pulse btn") Send!
+						.row.center-align
+								| © 2017 Copyright
+								span.footer-logo  Jason Li

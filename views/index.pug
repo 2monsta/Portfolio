@@ -4,10 +4,11 @@ block content
 	.parallax-container.one
 		.container
 			.row.center-align
-				h1 Hello World! 
+				h1 Hello World!
+				h3.message #{message} 
 		.parallax
 			img(src="images/code.jpg")
-	.section
+	.section#about
 		.row.container
 			.col.s8
 				h3 A Little About Me
@@ -21,7 +22,7 @@ block content
 		.parallax
 			img(src="images/code2.jpg")
 	.section
-		.row.container
+		.row.container#skills
 			.col.s6
 				h4 What I know
 				.row.center-align
