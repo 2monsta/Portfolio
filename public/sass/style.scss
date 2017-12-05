@@ -4,6 +4,10 @@
 
 @import "footer";
 
+#sidenav-overlay{
+	z-index: 0;
+}
+
 h4, h1{
 	font-family: 'Lobster', cursive;
 }
