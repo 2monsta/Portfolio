@@ -76,9 +76,12 @@ h4, h1 {
 
 .two {
   height: 500px; }
-  .two .col.s4 {
-    margin-top: 40px; }
   .two .parallax img {
     width: 100%; }
+
+.section .container .row .col.s4 {
+  margin-top: 40px; }
+.section .container .row .col.s6 video {
+  border: 1px solid black; }
 
 /*# sourceMappingURL=style.css.map */
