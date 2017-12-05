@@ -7,9 +7,11 @@
 h4, h1{
 	font-family: 'Lobster', cursive;
 }
-
 .one{
 	height: 500px;
+	.message{
+		color: lightseagreen;
+	}
 	.parallax{
 		img{
 			width: 100%;
@@ -40,6 +42,9 @@ h4, h1{
 }
 .two{
 	height: 500px;
+	.col.s4{
+		margin-top: 40px;
+	}
 	.parallax{
 		img{
 			width: 100%;
