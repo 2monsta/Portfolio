@@ -58,6 +58,9 @@
 h4, h1 {
   font-family: 'Lobster', cursive; }
 
+span {
+  font-size: 20px; }
+
 .one .message {
   color: lightseagreen; }
 .one .parallax img {

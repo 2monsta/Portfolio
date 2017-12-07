@@ -1,10 +1,28 @@
 extends layout
-
+//-  make sure the modal height changes
 block content
 	#modal1.modal.modal-fixed-footer
 		.modal-content
-			h4 Modal Header
-			p A bunch of text
+			h4 More Project
+			.divider
+			.container
+				.row
+					.col.s6
+						a(href="#")
+							span NavApp 
+						a(href="")
+							span | Github
+					.col.s6
+						a(href="#")
+							span(data-position="top" data-delay="50" data-tooltip="Made With React/Redux/Express.js!").tooltipped ToDo List(Full Stack) 
+						a(href="https://github.com/2monsta/react-express-todo")
+							span Github
+				.row
+					.col.s6
+						span(data-position="top" data-delay="50" data-tooltip="Made with jQuery").tooltipped ToDo List(Front-End) 
+						a(href="https://github.com/2monsta/ToDoList")
+							span Github
+						video(src="images/ToDoFrontEnd.mov" autoplay=true loop=true width="300px")
 		.modal-footer
 			a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='#!') Close
 	.parallax-container.one
