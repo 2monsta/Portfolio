@@ -1,6 +1,12 @@
 extends layout
 
 block content
+	#modal1.modal.modal-fixed-footer
+		.modal-content
+			h4 Modal Header
+			p A bunch of text
+		.modal-footer
+			a.modal-action.modal-close.waves-effect.waves-green.btn-flat(href='#!') Close
 	.parallax-container.one
 		.container
 			.row.center-align
@@ -24,7 +30,7 @@ block content
 					.col.s8
 						h1(style="color:#36A5E0;") Projects
 					.col.s4
-						a(href="")
+						a.modal-trigger(href="#modal1")
 							h4 Click For More
 				.row
 					.col.s6
@@ -58,6 +64,8 @@ block content
 						img(src="images/sass.png" width="100%")
 					.col.s3
 						img(src="images/mysql.png" width="100%")
+					.col.s3
+						img(src="images/python.png" width="100%")
 			.col.s6.center-align
 				h4 What I'm Learning
 				.row.center-align
